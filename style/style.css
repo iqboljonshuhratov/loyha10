@@ -1,0 +1,549 @@
+.bir {
+  width: 100%;
+  height: 100px;
+}
+.bir .tepa {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 80px;
+}
+@media (max-width: 1200px) {
+  .bir .tepa {
+    gap: 25px;
+    padding: 0px 25px;
+  }
+}
+@media (max-width: 400px) {
+  .bir .tepa {
+    padding: 0px 10px;
+  }
+}
+.bir .tepa p {
+  font-size: 24px;
+}
+.bir .tepa .soz ul {
+  display: flex;
+  list-style: none;
+  gap: 60px;
+}
+@media (max-width: 940px) {
+  .bir .tepa .soz ul {
+    display: none;
+  }
+}
+.bir .tepa .rasm {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.bir .tepa .rasm .insta {
+  width: 30px;
+}
+@media (max-width: 940px) {
+  .bir .tepa .rasm {
+    display: none;
+  }
+}
+@media (min-width: 940px) {
+  .bir .tepa .chiziq {
+    display: none;
+  }
+}
+@media (max-width: 940px) {
+  .bir .tepa .chiziq ul {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .bir .tepa .chiziq ul li {
+    width: 50px;
+    height: 4px;
+    background-color: black;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+}
+
+.ikkinchi {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ikkinchi b {
+  font-size: 64px;
+}
+@media (max-width: 1180px) {
+  .ikkinchi b {
+    font-size: 48px;
+  }
+}
+
+.uchinchi {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  row-gap: 0px;
+  padding: 0px 0px 0px 80px;
+}
+@media (max-width: 1200px) {
+  .uchinchi {
+    gap: 25px;
+    padding: 0px 0px 0px 25px;
+  }
+}
+@media (max-width: 940px) {
+  .uchinchi {
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    -moz-column-gap: 40px;
+         column-gap: 40px;
+    row-gap: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 770px) {
+  .uchinchi {
+    height: 1800px;
+  }
+}
+@media (max-width: 400px) {
+  .uchinchi {
+    padding: 0px 10px;
+  }
+}
+.uchinchi .chap {
+  width: 30%;
+  height: 80%;
+  background-color: rgba(0, 255, 255, 0.24);
+  border-radius: 30px;
+}
+@media (max-width: 940px) {
+  .uchinchi .chap {
+    width: 80%;
+    height: 50%;
+    background-color: rgba(0, 255, 255, 0.24);
+    border-radius: 30px;
+  }
+}
+.uchinchi .chap img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.uchinchi .ong {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 0px 80px 0px 0px;
+}
+@media (max-width: 1200px) {
+  .uchinchi .ong {
+    gap: 25px;
+    padding: 0px 0px 0px 25px;
+  }
+}
+@media (max-width: 770px) {
+  .uchinchi .ong {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+@media (max-width: 400px) {
+  .uchinchi .ong {
+    padding: 0px 10px;
+  }
+}
+.uchinchi .ong .d1 {
+  width: 47%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+@media (max-width: 770px) {
+  .uchinchi .ong .d1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+.uchinchi .ong .d1 input {
+  width: 100%;
+  height: 60px;
+  border-radius: 16px;
+  padding: 0px 20px;
+}
+.uchinchi .ong .d2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.uchinchi .ong .d2 .input {
+  width: 98%;
+  height: 200px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  border-radius: 16px;
+}
+.uchinchi .ong button {
+  background-color: black;
+  color: white;
+  padding: 20px 63px;
+  border-radius: 16px;
+}
+
+.toqqiz {
+  width: 100%;
+  height: 230px;
+  display: flex;
+  padding: 80px;
+  justify-content: center;
+  align-items: center;
+}
+.toqqiz strong {
+  font-size: 48px;
+}
+
+.on {
+  width: 100%;
+  height: 550px;
+  display: flex;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 80px;
+  gap: 40px;
+  background-color: #E5E5E5;
+}
+@media (max-width: 1200px) {
+  .on {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    gap: 40px;
+    background-color: #E5E5E5;
+  }
+}
+@media (max-width: 1100px) {
+  .on {
+    height: 1050px;
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 770px) {
+  .on {
+    height: 2500px;
+  }
+}
+.on .ohwaw {
+  width: 22%;
+  height: 434px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  padding: 16px;
+}
+@media (max-width: 1100px) {
+  .on .ohwaw {
+    width: 330px;
+    height: 434px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 16px;
+  }
+}
+@media (max-width: 770px) {
+  .on .ohwaw {
+    width: 80%;
+    height: 534px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 16px;
+  }
+}
+@media (max-width: 400px) {
+  .on .ohwaw {
+    padding: 0px 10px;
+  }
+}
+.on .ohwaw .d1 {
+  width: 100%;
+  height: 60%;
+  background-image: url(../qolibketkan/image\ 26.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+@media (max-width: 400px) {
+  .on .ohwaw .d1 {
+    padding: 0px 10px;
+  }
+}
+.on .ohwaw .d1 nav {
+  width: 48px;
+  height: 48px;
+  background-color: white;
+  border-radius: 100%;
+  text-align: center;
+  padding: 17px 0px;
+}
+@media (max-width: 400px) {
+  .on .ohwaw .d1 nav {
+    padding: 0px 10px;
+  }
+}
+.on .ohwaw .d2 {
+  width: 100%;
+  height: 40%;
+}
+.on .ohwaw .d2 p {
+  font-size: 24px;
+  margin: 24px 24px 40px 24px;
+}
+.on .ohwaw .d2 img {
+  margin: 0px 0px 24px 24px;
+}
+@media (max-width: 400px) {
+  .on {
+    padding: 0px 10px;
+  }
+}
+
+.onbir {
+  width: 100%;
+  height: 770px;
+  display: flex;
+  flex-direction: column;
+  padding: 80px;
+}
+@media (max-width: 1200px) {
+  .onbir {
+    padding: 0px 0px 0px 25px;
+  }
+}
+.onbir .tepa {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 25px;
+  background-color: #E7F9FD;
+  border-radius: 20px 20px 0px 0px;
+}
+.onbir .tepa strong {
+  font-size: 48px;
+}
+@media (max-width: 400px) {
+  .onbir .tepa strong {
+    font-size: 30px;
+  }
+}
+.onbir .past {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0px 0px 20px 20px;
+  background-color: #E7F9FD;
+}
+.onbir .past nav {
+  width: 480px;
+  height: 80px;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px 0px 32px;
+  position: relative;
+  margin-top: 100px;
+  border-radius: 30px;
+}
+@media (max-width: 400px) {
+  .onbir .past nav {
+    padding: 0px 10px;
+  }
+}
+.onbir .past nav p {
+  font-size: 14px;
+}
+.onbir .past nav button {
+  font-size: 14px;
+  color: white;
+  width: 160px;
+  height: 60px;
+  background-color: black;
+  border-radius: 30px;
+}
+@media (max-width: 940px) {
+  .onbir .past .past {
+    justify-content: center;
+  }
+  .onbir .past nav {
+    margin: auto;
+  }
+  .onbir .past img {
+    display: none;
+  }
+}
+
+.onikki {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+@media (max-width: 570px) {
+  .onikki {
+    height: 400px;
+  }
+}
+.onikki nav {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 80px;
+}
+.onikki nav strong {
+  font-size: 24px;
+}
+.onikki nav ul {
+  display: flex;
+  list-style: none;
+  gap: 60px;
+}
+@media (max-width: 940px) {
+  .onikki nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 400px) {
+  .onikki nav {
+    padding: 0px 10px;
+  }
+}
+@media (max-width: 940px) {
+  .onikki .nav {
+    display: none;
+  }
+  .onikki .nav2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 940px) and (max-width: 470px) {
+  .onikki .nav2 {
+    display: flex;
+  }
+  .onikki .nav2 ul {
+    flex-direction: column;
+  }
+}
+
+.ohiri {
+  width: 100%;
+  height: 120px;
+  display: flex;
+}
+@media (max-width: 940px) {
+  .ohiri .chap {
+    display: none;
+  }
+}
+.ohiri .chap {
+  width: 30%;
+  height: 100%;
+}
+.ohiri .ong {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 80px 0px 80px;
+}
+@media (max-width: 400px) {
+  .ohiri .ong {
+    padding: 0px 10px;
+  }
+}
+.ohiri .ong nav {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.ohiri .ong .bir {
+  width: 336px;
+  height: 23px;
+}
+@media (max-width: 570px) {
+  .ohiri .ong .bir {
+    display: none;
+  }
+}
+.ohiri .ong .ikki {
+  width: 9px;
+  height: 19px;
+}
+.ohiri .ong .uch {
+  width: 22px;
+  height: 17px;
+}
+.ohiri .ong .insta {
+  width: 22px;
+  height: 22px;
+}
+@media (max-width: 940px) {
+  .ohiri .ong nav {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+li {
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
